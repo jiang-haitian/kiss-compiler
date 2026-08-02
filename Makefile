@@ -16,4 +16,4 @@ clean:
 	-rm -rf build/
 
 test:
-	build/tools/kiss-opt/kiss-opt -foo test/in.mlir
+	build/tools/kiss-opt/kiss-opt -foo test/in.mlir 2>log
